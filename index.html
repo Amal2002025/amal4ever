@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>משחק - כניסה</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- וידאו כרקע -->
+    <video autoplay muted loop class="video-background">
+        <source src="Untitled.mp4" type="video/mp4">
+        הדפדפן שלך לא תומך בתג וידאו.
+    </video>
+
+    <!-- לוגו -->
+    <img src="לוגו עמל ומעבר.png" alt="לוגו" class="logo">
+
+    <!-- ניווט -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="game.html">Game</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+
+    <div class="container">
+        
+<h1>ברוכים הבאים למשחק</h1>
+<form id="loginForm">
+    <label for="name">שם:</label>
+    <input type="text" id="name" required>
+    <label for="department">מחלקה:</label>
+    <input type="text" id="department" required>
+    <button type="submit">היכנס למשחק</button>
+</form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
